@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 94vh;
     background-color: #f4f4f9;
 }
 
@@ -65,3 +65,4 @@ body {
 .btn:active {
     opacity: 0.8;
 }
+

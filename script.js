@@ -116,3 +116,13 @@ document.getElementById('clear').addEventListener('click', () => {
 
 // Initial display
 updateDisplay();
+
+let temph2 = document.getElementById("temph2");
+temph2.innerText = "Basic Js Calculator , Calculate your progress.....";
+let inserth2 = document.querySelector("body");
+inserth2.before(temph2);
+temph2.style.display = "flex";
+// temph2.style.alignItems = "center";
+temph2.style.justifyContent = "center";
+temph2.style.margin = "20px 0px 0px 0px";
+
