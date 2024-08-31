@@ -118,7 +118,7 @@ document.getElementById('clear').addEventListener('click', () => {
 updateDisplay();
 
 let temph2 = document.getElementById("temph2");
-temph2.innerText = "Basic Js Calculator , Calculate your progress.....";
+temph2.innerText = "Basic JavaScript Calculator , Calculate your progress.....";
 let inserth2 = document.querySelector("body");
 inserth2.before(temph2);
 temph2.style.display = "flex";
