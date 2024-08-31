@@ -1,0 +1,67 @@
+/* cal2.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #000;
+    color: white;
+    text-align: right;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f1f3f4;
+    border: none;
+    color: #333;
+}
+
+.btn.operator {
+    background-color: #ffa726;
+    color: white;
+}
+
+.btn.clear {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn.equals {
+    background-color: #4caf50;
+    color: white;
+    grid-column: span 2;
+}
+
+.btn.num {
+    background-color: #607d8b;
+    color: white;
+}
+
+.btn:active {
+    opacity: 0.8;
+}
